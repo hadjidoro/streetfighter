@@ -14,8 +14,8 @@ reaction_assaut.o: reaction_assaut.c random.c global.h
 
 
 
-#random.o: random.c
-#	gcc -c random.c -W -Wall
+random.o: random.c
+	gcc -c random.c -W -Wall
 
 wait_time.o: wait_time.c
 	gcc -c wait_time.c -W -Wall

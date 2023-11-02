@@ -42,6 +42,10 @@
 *.idb
 *.pdb
 
+# Others
+.idea
+fight
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
